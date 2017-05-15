@@ -5,10 +5,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/facebookgo/rocks-strata/strata"
-	"github.com/facebookgo/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrs3driver"
-	"github.com/facebookgo/rocks-strata/strata/miniostorage"
-	"github.com/facebookgo/rocks-strata/strata/mongo/lreplica"
+	"github.com/digitalism/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrs3driver"
+	"github.com/digitalism/rocks-strata/strata/miniostorage"
+	"github.com/digitalism/rocks-strata/strata/mongo/lreplica"
 )
 
 // MinioOptions are common to all commands

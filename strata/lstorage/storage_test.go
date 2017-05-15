@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/facebookgo/ensure"
-	"github.com/facebookgo/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata"
 )
 
 func TestLStorage(t *testing.T) {

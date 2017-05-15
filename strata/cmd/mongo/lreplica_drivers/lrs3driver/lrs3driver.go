@@ -12,9 +12,9 @@ import (
 
 	"github.com/AdRoll/goamz/aws"
 	"github.com/AdRoll/goamz/s3"
-	"github.com/facebookgo/rocks-strata/strata"
-	"github.com/facebookgo/rocks-strata/strata/mongo/lreplica"
-	"github.com/facebookgo/rocks-strata/strata/s3storage"
+	"github.com/digitalism/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata/mongo/lreplica"
+	"github.com/digitalism/rocks-strata/strata/s3storage"
 )
 
 // AWSOptions are common to all commands

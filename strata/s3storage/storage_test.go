@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/facebookgo/ensure"
-	"github.com/facebookgo/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata"
 )
 
 func TestS3Storage(t *testing.T) {

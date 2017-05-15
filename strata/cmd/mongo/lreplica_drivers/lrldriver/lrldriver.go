@@ -8,10 +8,10 @@ package lrldriver
 import (
 	"strconv"
 
-	"github.com/facebookgo/rocks-strata/strata"
-	"github.com/facebookgo/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrs3driver"
-	"github.com/facebookgo/rocks-strata/strata/mongo/lreplica"
-	"github.com/facebookgo/rocks-strata/strata/lstorage"
+	"github.com/digitalism/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrs3driver"
+	"github.com/digitalism/rocks-strata/strata/mongo/lreplica"
+	"github.com/digitalism/rocks-strata/strata/lstorage"
 )
 
 // FsOptions are common to all commands

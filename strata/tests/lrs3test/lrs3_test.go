@@ -17,9 +17,9 @@ import (
 
 	"github.com/facebookgo/ensure"
 	"github.com/facebookgo/mgotest"
-	"github.com/facebookgo/rocks-strata/strata"
-	"github.com/facebookgo/rocks-strata/strata/mongo/lreplica"
-	"github.com/facebookgo/rocks-strata/strata/s3storage"
+	"github.com/digitalism/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata/mongo/lreplica"
+	"github.com/digitalism/rocks-strata/strata/s3storage"
 )
 
 func skipIfOldMongo(t *testing.T) {

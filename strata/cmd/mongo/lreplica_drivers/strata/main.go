@@ -10,11 +10,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/facebookgo/rocks-strata/strata"
-	"github.com/facebookgo/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrazureblobdriver"
-	"github.com/facebookgo/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrldriver"
-	"github.com/facebookgo/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrminiodriver"
-	"github.com/facebookgo/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrs3driver"
+	"github.com/digitalism/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrazureblobdriver"
+	"github.com/digitalism/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrldriver"
+	"github.com/digitalism/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrminiodriver"
+	"github.com/digitalism/rocks-strata/strata/cmd/mongo/lreplica_drivers/lrs3driver"
 )
 
 func main() {

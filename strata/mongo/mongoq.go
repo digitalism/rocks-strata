@@ -15,7 +15,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/facebookgo/rocks-strata/strata"
+	"github.com/digitalism/rocks-strata/strata"
 	"github.com/jessevdk/go-flags"
 	"github.com/kr/pty"
 	"golang.org/x/crypto/ssh/terminal"
