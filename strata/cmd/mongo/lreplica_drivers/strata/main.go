@@ -27,8 +27,6 @@ func main() {
 		strata.RunCLI(lrminiodriver.DriverFactory{Ops: &lrminiodriver.Options{}})
 	case "local":
 		strata.RunCLI(lrldriver.DriverFactory{Ops: &lrldriver.Options{}})
-	case "azureblob":
-		strata.RunCLI(lrazureblobdriver.DriverFactory{Ops: &lrazureblobdriver.Options{}})
 	default:
 		strata.RunCLI(lrs3driver.DriverFactory{Ops: &lrs3driver.Options{}})
 	}
